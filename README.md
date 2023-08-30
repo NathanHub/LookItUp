@@ -1,4 +1,4 @@
-![LookItUp Logo](https://github.com/NathanHub/LookItUp/assets/22746787/3e875377-bde4-4fe3-a364-870713b4d367)
+![logo](https://github.com/NathanHub/LookTopia/assets/22746787/1c2e37bc-0df7-420f-b2be-cd9d1cb5fb82)
 
-# LookItUp
-Mobile app that let's you find any kind of business out there
+# LookTopia
+Mobile app that let's you find any type of business out there. Planing to expand the scope of the app with different versions.
