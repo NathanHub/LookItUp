@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305955986483",
+    "project_id": "looktopia-7a9cf",
+    "storage_bucket": "looktopia-7a9cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305955986483:android:176b2eb2a02695045ad746",
+        "android_client_info": {
+          "package_name": "com.south95.looktopia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABAUeAAL_84F_RFqAxn4xCfvRDOUqouPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

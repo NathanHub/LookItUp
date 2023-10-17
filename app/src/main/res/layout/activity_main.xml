@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/square_shape"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="LookTopia"
+            app:titleTextColor="#ffff" />
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/square_shape"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_top">
+
+        <TextView
+            android:id="@+id/selection_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/green"
+            android:fontFamily="@font/jetbrains_regular"
+            android:text="@string/chipgroup_header"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/chipgroup_bg"
+            android:padding="10dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:checkable="true"
+                android:fontFamily="@font/jetbrains_regular"
+                android:text="@string/cars"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:checkable="true"
+                android:fontFamily="@font/jetbrains_regular"
+                android:text="@string/biking"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:checkable="true"
+                android:fontFamily="@font/jetbrains_regular"
+                android:text="@string/finance"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:checkable="true"
+                android:fontFamily="@font/jetbrains_regular"
+                android:text="@string/mobiles"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip5"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:checkable="true"
+                android:fontFamily="@font/jetbrains_regular"
+                android:text="@string/computers"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip6"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:checkable="true"
+                android:fontFamily="@font/jetbrains_regular"
+                android:text="@string/motorbikes"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip7"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:checkable="true"
+                android:fontFamily="@font/jetbrains_regular"
+                android:text="@string/video_games_and_consoles"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+        </com.google.android.material.chip.ChipGroup>
+
+
+    </LinearLayout>
+
+    <!-- Create a guideline to anchor the bottom of the LinearLayout -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <ImageView
+        android:layout_width="440dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="-140dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/circle_shape"
+        android:contentDescription="@string/circle_shape_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/square_shape"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Continue"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_bottom" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

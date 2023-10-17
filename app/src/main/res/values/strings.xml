@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LookTopia</string>
+
+    <!-- Options for the menu   -->
+    <string name="title">Title</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="supporting_text">Supporting text.</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+
+    <!-- ChipGroup header  -->
+    <string name="chipgroup_header">Choose your favorite categories (at least 3)</string>
+
+    <!-- Options for the ChipGroup   -->
+    <string name="cars">Cars</string>
+    <string name="biking">Biking</string>
+    <string name="finance">Finance</string>
+    <string name="mobiles">Mobiles</string>
+    <string name="computers">Computers</string>
+    <string name="motorbikes">Motorbikes</string>
+    <string name="video_games_and_consoles">Video games</string>
+    <string name="circle_shape_description">Circle Shape</string>
+    <string name="find_that_business">Find that business</string>
+    <string name="app_logo_description">App Logo</string>
+
+</resources>

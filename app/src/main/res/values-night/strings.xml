@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help">Help</string>
+    <string name="circle_shape_description">Circle Shape</string>
+    <string name="app_logo_description">App Logo</string>
+</resources>

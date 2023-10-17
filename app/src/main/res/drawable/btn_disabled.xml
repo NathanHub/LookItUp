@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- When the button is disabled -->
+    <item android:state_enabled="false">
+        <shape>
+            <!-- Set the background color when disabled (gray in this case) -->
+            <solid android:color="@color/green_disabled" />
+            <!-- You can customize other properties like corner radius, stroke, etc. -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>
